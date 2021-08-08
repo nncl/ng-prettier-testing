@@ -2,6 +2,57 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.1.0.
 
+## Prettier
+
+# Prettier
+
+## Installation
+
+Install prettier with NPM or YARN:
+
+```bash
+npm i prettier -D
+```
+
+Create a `.prettierrc` file with the following content:
+
+```json
+{
+  "singleQuote": true,
+  "trailingComma": "es5"
+}
+```
+
+And also a `.prettierignore`:
+
+```
+package.json
+package-lock.json
+yarn.lock
+dist
+```
+
+### Set up tslint-config-prettier
+
+Install via npm or yarn:
+
+```bash
+npm i tslint-config-prettier -D
+```
+
+Create/update the `tslint.json` file with the following content:
+
+```json
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier"
+  ]
+}
+```
+
+That's that.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
