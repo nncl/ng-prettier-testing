@@ -4,8 +4,6 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Prettier
 
-# Prettier
-
 ## Installation
 
 Install prettier with NPM or YARN:
