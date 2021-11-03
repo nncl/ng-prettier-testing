@@ -51,6 +51,10 @@ Create/update the `tslint.json` file with the following content:
 
 That's that.
 
+## Lint
+
+Follow [this instructions](https://dev.to/bzvyagintsev/migrate-angular-app-to-eslint-with-prettier-airbnb-styleguide-husky-and-lint-staged-862) in order to set up all lint configurations.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
